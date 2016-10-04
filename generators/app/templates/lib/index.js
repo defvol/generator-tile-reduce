@@ -17,5 +17,7 @@ tileReduce({
     }
   ]
 })
-.on('reduce', num => numFeatures += num)
+.on('reduce', num => {
+  numFeatures += num
+})
 .on('end', () => console.log('count: %d', numFeatures))
