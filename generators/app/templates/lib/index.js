@@ -6,7 +6,7 @@ var path = require('path')
 var numFeatures = 0
 
 tileReduce({
-  bbox: [-122.05, 36.94, -121.97, 37.04],
+  bbox: [-117.31, 32.78, -114.06, 29.82],
   zoom: 15,
   map: path.join(__dirname, '/map.js'),
   sources: [

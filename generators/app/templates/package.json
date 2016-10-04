@@ -4,6 +4,7 @@
   "description": "<%= description %>",
   "main": "lib/index.js",
   "scripts": {
+    "download": "curl https://raw.githubusercontent.com/mapbox/mbview/master/examples/baja-highways.mbtiles > data/osm.mbtiles",
     "start": "node lib/index.js",
     "lint": "eslint lib/*.js test/*.js",
     "pretest": "npm run lint",
