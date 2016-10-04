@@ -1,0 +1,23 @@
+{
+  "name": "<%= project %>",
+  "version": "0.1.0",
+  "description": "<%= description %>",
+  "bin": {
+    "<%= project %>": "lib/index.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/*.js test/*.js",
+    "pretest": "npm run lint",
+    "test": "tape test/*.test.js"
+  },
+  "keywords": [
+    "generator-npm-pasta",
+    "tile-reduce"
+  ],
+  "author": "<%= author %>",
+  "license": "ISC",
+  "repository": "<%= author %>/<%= project %>",
+  "devDependencies": {},
+  "dependencies": {}
+}

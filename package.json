@@ -1,0 +1,27 @@
+{
+  "name": "generator-tile-reduce",
+  "version": "0.1.0",
+  "description": "Generate copypasta for tile-reduce scripts",
+  "files": [
+    "generators/app"
+  ],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "generator",
+    "tile-reduce",
+    "geospatial"
+  ],
+  "repository": "rodowi/generator-tile-reduce",
+  "dependencies": {
+    "camelize": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.20.3"
+  },
+  "devDependencies": {
+    "fs-extra": "^0.30.0",
+    "mocha": "^2.5.3"
+  }
+}
