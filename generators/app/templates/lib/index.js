@@ -7,7 +7,7 @@ var numFeatures = 0
 
 tileReduce({
   bbox: [-117.31, 32.78, -114.06, 29.82],
-  zoom: 15,
+  zoom: 12,
   map: path.join(__dirname, '/map.js'),
   sources: [
     {
