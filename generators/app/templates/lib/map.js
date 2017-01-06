@@ -1,6 +1,11 @@
 module.exports = function (data, tile, writeData, done) {
   var count = 0
-  if (data.osm.roads) count += data.osm.roads.length
-  if (data.osm.buildings) count += data.osm.buildings.length
+  var features = data.osm.bajahighways.features
+
+  for (var i = 0; i < features.length; i++) {
+    var feature = features[i]
+    if (feature.properties.highway || feature.properties.building) count++
+  }
+
   done(null, count)
 }

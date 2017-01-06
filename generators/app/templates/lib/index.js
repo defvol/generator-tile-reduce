@@ -12,8 +12,7 @@ tileReduce({
   sources: [
     {
       name: 'osm',
-      mbtiles: path.join(__dirname, '../data/osm.mbtiles'),
-      raw: true
+      mbtiles: path.join(__dirname, '../data/osm.mbtiles')
     }
   ]
 })
